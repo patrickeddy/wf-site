@@ -1,0 +1,29 @@
+body{
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	font-size: 5em;
+	border-bottom: 1px solid lightgray;
+}
+p{
+	font-size: 1.5em;
+}
+span{
+	color: #1b4c00;
+}
+.survey-link{
+	text-align: left;
+}
+a{
+	font-size: 2.5em;
+	text-decoration: none;
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+	color: #1b4c00;
+}
