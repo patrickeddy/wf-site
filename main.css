@@ -1,29 +1,117 @@
-body{
-	width: 65%;
-	margin-left: auto;
-	margin-right: auto;
+html
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
-h1{
-	font-size: 5em;
-	border-bottom: 1px solid lightgray;
+
+body
+{
+	width: 1280px;
+	margin: auto;
 }
-p{
+
+p
+{
 	font-size: 1.5em;
 }
-span{
-	color: #1b4c00;
-}
-.survey-link{
-	text-align: left;
-}
+
 a{
 	font-size: 2.5em;
 	text-decoration: none;
 }
-a:visited{
+a:visited
+{
 	color: blue;
 }
-a:hover{
+a:hover
+{
 	text-decoration: underline;
 	color: #1b4c00;
 }
+
+.survey-link
+{
+	text-align: left;
+}
+
+#title-header
+{
+	width: 100%;
+	height: 243px;
+	font-family: 'Quattrocento', serif;
+	background-image: url("img/walker.jpg");
+}
+
+#title-header h1 
+{
+	text-align: right;
+	font-size: 5em;
+	color: white;
+	line-height: 50px;
+	padding-top: 170px;
+	padding-right: 10px;
+}
+
+#header-img
+{
+	height: auto;
+	width: 100%;
+}
+
+#front-banner
+{
+	width: 1280px;
+	height: 300px;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'News Cycle', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#left-bubble
+{
+	width: 30%;
+	float: left;
+	height: 300px;
+	display:inline;
+}
+
+#center-bubble
+{
+	width: 30%;
+	height: 300px;
+	float: left;
+	margin: 0px 50px 0px 50px;
+	display:inline;
+}
+
+#right-bubble
+{
+	width: 30%;
+	float: right;
+	height: 300px;
+	display:inline;
+}
+
+.circle
+{
+	border: solid;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin-left: 60px;
+}
+
+.bubble-icon
+{
+	margin-top: 45px;
+	width: 150px;
+	height: auto;
+}
+
+#details
+{
+	font-family: 'News Cycle', sans-serif;
+}
+
