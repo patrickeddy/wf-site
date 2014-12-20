@@ -122,7 +122,6 @@ p
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1em 0em 1em 0em;
-	border-bottom: 1px solid lightgray;
 }
 .survey-link
 {
@@ -132,13 +131,11 @@ p
 	color: #A30000;
 	display: block;
 	padding: 0.5em;
-	border: 1px solid lightgray;
-	border-width: 1px 0 0px 0;
 }
 
 .survey-link:hover
 {
-	font-weight: 600;
+	font-weight: 900;
 }
 
 .survey-link:visited
