@@ -115,19 +115,30 @@ p
 	padding: 0em .25em 0em .25em;
 }
 
+.surveys
+{
+	text-align: left;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 0em 1em 0em;
+	border-bottom: 1px solid lightgray;
+}
 .survey-link
 {
 	text-align: center;
 	font-size: 2.5em;
 	text-decoration: none;
-	margin: auto;
 	color: #A30000;
 	display: block;
+	padding: 0.5em;
+	border: 1px solid lightgray;
+	border-width: 1px 0 0px 0;
 }
 
 .survey-link:hover
 {
-	text-decoration:  underline;
+	font-weight: 600;
 }
 
 .survey-link:visited
@@ -138,12 +149,6 @@ p
 .tag-line
 {
 	font-size: 3em;
-}
-
-.surveys
-{
-	text-align: left;
-	padding: 1em 0em 1em 0em;
 }
 
 @media only screen 
