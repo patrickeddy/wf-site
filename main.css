@@ -17,6 +17,7 @@ p
 
 #wrapper
 {
+	
 }
 
 #title-header
@@ -108,6 +109,11 @@ p
 	margin: auto;
 }
 
+#details p
+{
+	text-align: left;
+}
+
 #care-text
 {
 	color: #A30000;
@@ -115,18 +121,39 @@ p
 	padding: 0em .25em 0em .25em;
 }
 
-a
+.survey-link
 {
 	font-size: 2.5em;
 	text-decoration: none;
 	margin: auto;
 	color: #A30000;
+	display: block;
 }
 
-a:hover
+.survey-link:hover
 {
 	text-decoration:  underline;
 }
+
+.survey-link:visited
+{
+	color: #A30000;
+}
+
+.tag-line
+{
+	font-size: 3em;
+}
+
+.link-box
+{
+	padding: 1em 0em 1em 0em;
+}
+
+
+
+
+
 @media only screen 
 and (max-width : 600px) {
 	#title-bar{
@@ -139,3 +166,4 @@ and (max-width : 450px) {
 		font-size: 2em;
 	}
 }
+
