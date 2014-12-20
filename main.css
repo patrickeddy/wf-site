@@ -153,6 +153,21 @@ and (max-width : 600px) {
 	#title-bar{
 		font-size: 3em;
 	}
+	.tag-line{
+		font-size: 1.5em;
+	}
+	.surveys{
+		width: 90%;
+	}
+	.surveys p{
+		font-size: 1em;
+	}
+	#details{
+		width: 90%;
+	}
+	.survey-link{
+		font-size: 2em;
+	}
 }
 @media only screen 
 and (max-width : 450px) {
