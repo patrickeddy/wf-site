@@ -145,14 +145,11 @@ p
 	font-size: 3em;
 }
 
-.link-box
+.surveys
 {
+	text-align: left;
 	padding: 1em 0em 1em 0em;
 }
-
-
-
-
 
 @media only screen 
 and (max-width : 600px) {
